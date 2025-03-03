@@ -1,0 +1,58 @@
+body {
+    margin: auto;
+    width: max-content;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.heading {
+    text-align: start;
+    width: 683px;
+}
+
+.container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 683px;
+    margin: auto;
+}
+
+ul, ol {
+    padding-inline-start: 0%;
+    list-style: none;
+}
+
+ol {
+    text-align: start;
+    list-style: numbers;
+    padding-inline-start: 20px;
+}
+
+a {
+    color: aquamarine;
+}
+
+@media screen and (max-width: 683px) {
+     .container {
+        width: 625px;
+    }
+
+    p {
+        width: 625px;
+    }
+
+    div.heading {
+        width: 625px;
+    }
+}
